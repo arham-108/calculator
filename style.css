@@ -3,7 +3,8 @@
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
-body{
+
+body {
     background-color: whitesmoke;
 }
 
@@ -11,27 +12,31 @@ body{
     background-color: #101077;
     color: white;
     text-align: center;
+    margin: 1em;
 }
 
 .functions {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 14rem;
+    margin-top: 5rem;
     flex-direction: column;
-    gap: 3em;
+    gap: 2em;
 }
 
 .AM {
     display: flex;
     flex-direction: row;
     margin: 0em 3em;
+    gap: 7em;
+
 }
 
 .MD {
     display: flex;
     flex-direction: row;
     margin: 0em 3em;
+    gap: 7em;
 }
 
 .add-box,
@@ -44,17 +49,38 @@ body{
     justify-content: center;
     background: #101077;
     color: white;
+    height: 9em;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.multiply-box {
+    width: 11.3rem;
+    margin-left: 4px;
+}
+
+.divide-box {
+    margin-left: -3px;
 }
 
 .sign {
-    margin: 4em 0em;
+    margin: 2em 0em;
     font-weight: 800;
+    font-size: 19px;
+    margin-top: 30px;
+    height: 0;
 }
 
 .btn {
-   margin: 1em 3rem 3rem 3rem;
-   background-color: #101077;
-   border: none;
-   color: white;
-   font-weight: 800;
+    margin: 1em 4rem 5rem 4rem;
+    background-color: #101077;
+    border: none;
+    color: white;
+    font-weight: 800;
+    font-size: 25px;
+}
+a{
+    text-decoration: none;
+    /* color: white; */
+    
 }
