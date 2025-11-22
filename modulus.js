@@ -1,0 +1,10 @@
+var num1 = prompt("Enter Number ")
+var num2 = prompt("Enter Number ")
+
+var Number1= Number(num1)
+var Number2= Number(num2)
+
+var result= (Number1 % Number2)
+
+alert("The modulus is " + result)
+console.log("The modulus is " + result)
